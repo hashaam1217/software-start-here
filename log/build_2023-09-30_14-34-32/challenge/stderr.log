@@ -1,0 +1,8 @@
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KTurtleSimController::TurtleSimController()[m[K’:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   22 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&TurtleSimController::timer_callback, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

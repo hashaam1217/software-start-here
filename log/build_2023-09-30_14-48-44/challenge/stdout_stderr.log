@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In function ‘[01m[Kdouble sine_function(geometry_msgs::msg::Twist)[m[K’:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:47:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   47 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:43:48:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Ktwist_msg[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+   43 | double sine_function([01;35m[Kgeometry_msgs::msg::Twist twist_msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable solution[0m
+[100%] Built target solution
+-- Install configuration: ""
+-- Installing: /home/hashaam/Documents/software-start-here/install/challenge/lib/challenge/solution
+-- Set runtime path of "/home/hashaam/Documents/software-start-here/install/challenge/lib/challenge/solution" to ""
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/path.sh
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/path.dsv
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.bash
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.sh
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.zsh
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.dsv
+-- Installing: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/package.dsv
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+-- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/package.xml

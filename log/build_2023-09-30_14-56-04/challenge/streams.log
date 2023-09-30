@@ -1,0 +1,14 @@
+[0.175s] Invoking command in '/home/hashaam/Documents/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16
+[0.219s] [35m[1mScanning dependencies of target solution[0m
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.390s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In function ‘[01m[Kdouble sine_function(geometry_msgs::msg::Twist)[m[K’:
+[1.390s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:47:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksin[m[K’
+[1.390s]    47 |     twist_msg.angular.[01;31m[Ksin[m[K(time(0));
+[1.390s]       |                       [01;31m[K^~~[m[K
+[1.390s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:48:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Twist[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} to ‘[01m[Kdouble[m[K’ in return
+[1.390s]    48 |     return [01;31m[Ktwist_msg[m[K;
+[1.390s]       |            [01;31m[K^~~~~~~~~[m[K
+[2.348s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.348s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.349s] make: *** [Makefile:141: all] Error 2
+[2.351s] Invoked command in '/home/hashaam/Documents/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16

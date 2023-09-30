@@ -1,0 +1,12 @@
+[0.128s] Invoking command in '/home/hashaam/Documents/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16
+[0.184s] [35m[1mScanning dependencies of target solution[0m
+[0.206s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.022s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KTurtleSimController::TurtleSimController()[m[K’:
+[1.022s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.022s]    22 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&TurtleSimController::timer_callback, this));
+[1.022s]       |     [01;31m[K^~~~~~[m[K
+[1.022s]       |     [32m[Ktimer_t[m[K
+[1.651s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.651s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.651s] make: *** [Makefile:141: all] Error 2
+[1.655s] Invoked command in '/home/hashaam/Documents/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16

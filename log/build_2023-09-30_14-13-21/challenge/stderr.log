@@ -1,0 +1,39 @@
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid TurtleSimController::timer_callback()[m[K’:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:25:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+   28 |       message.linear = {[01;35m[Kx[m[K: 2.0, y: 0.0, z: 0.0}
+      |                         [01;35m[K^[m[K
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:33:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+   28 |       message.linear = {x: 2.0, [01;35m[Ky[m[K: 0.0, z: 0.0}
+      |                                 [01;35m[K^[m[K
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:41:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+   28 |       message.linear = {x: 2.0, y: 0.0, [01;35m[Kz[m[K: 0.0}
+      |                                         [01;35m[K^[m[K
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:47:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   28 |       message.linear = {x: 2.0, y: 0.0, z: 0.0[01;31m[K}[m[K
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)[m[K’
+   31 | struct [01;36m[KVector3_[m[K
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:10[m[K:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:30:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   30 |       RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.[01;31m[Kdata[m[K.c_str());
+      |                                                                   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

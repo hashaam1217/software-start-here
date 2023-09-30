@@ -1,0 +1,26 @@
+[0.177s] Invoking command in '/home/hashaam/Documents/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16
+[0.220s] [35m[1mScanning dependencies of target solution[0m
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.029s] [100%] [32m[1mLinking CXX executable solution[0m
+[3.182s] [100%] Built target solution
+[3.192s] Invoked command in '/home/hashaam/Documents/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16
+[3.229s] Invoking command in '/home/hashaam/Documents/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/hashaam/Documents/software-start-here/build/challenge
+[3.237s] -- Install configuration: ""
+[3.237s] -- Installing: /home/hashaam/Documents/software-start-here/install/challenge/lib/challenge/solution
+[3.238s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/challenge/lib/challenge/solution" to ""
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/path.sh
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.bash
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.sh
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[3.238s] -- Installing: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/package.dsv
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[3.238s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[3.239s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/challenge/share/challenge/package.xml
+[3.240s] Invoked command in '/home/hashaam/Documents/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/hashaam/Documents/software-start-here/build/challenge

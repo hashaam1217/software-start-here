@@ -1,0 +1,29 @@
+[0.097s] Invoking command in '/home/hashaam/Documents/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16
+[0.138s] [35m[1mScanning dependencies of target solution[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.969s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid TurtleSimController::timer_callback()[m[K’:
+[0.969s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:25:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+[0.969s]    28 |       message.linear = {[01;35m[Kx[m[K: 2.0, y: 0.0, z: 0.0}
+[0.970s]       |                         [01;35m[K^[m[K
+[0.970s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:33:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+[0.970s]    28 |       message.linear = {x: 2.0, [01;35m[Ky[m[K: 0.0, z: 0.0}
+[0.970s]       |                                 [01;35m[K^[m[K
+[0.970s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:41:[m[K [01;35m[Kwarning: [m[KISO C++ does not allow GNU designated initializers [[01;35m[K-Wpedantic[m[K]
+[0.970s]    28 |       message.linear = {x: 2.0, y: 0.0, [01;35m[Kz[m[K: 0.0}
+[0.970s]       |                                         [01;35m[K^[m[K
+[0.970s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:28:47:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[0.970s]    28 |       message.linear = {x: 2.0, y: 0.0, z: 0.0[01;31m[K}[m[K
+[0.970s]       |                                               [01;31m[K^[m[K
+[0.970s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+[0.970s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[0.970s]                  from [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[0.970s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)[m[K’
+[0.970s]    31 | struct [01;36m[KVector3_[m[K
+[0.970s]       |        [01;36m[K^~~~~~~~[m[K
+[0.970s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[0.970s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)[m[K’
+[0.970s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+[1.356s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.356s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.356s] make: *** [Makefile:141: all] Error 2
+[1.358s] Invoked command in '/home/hashaam/Documents/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16

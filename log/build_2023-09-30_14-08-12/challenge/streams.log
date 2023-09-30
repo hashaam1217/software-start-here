@@ -1,0 +1,11 @@
+[0.107s] Invoking command in '/home/hashaam/Documents/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16
+[0.196s] [35m[1mScanning dependencies of target solution[0m
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.165s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid TurtleSimController::timer_callback()[m[K’:
+[1.166s] [01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:27:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[1.166s]    27 |       auto message = geometry_msgs::msg::Twist[01;31m[K;[m[K
+[1.166s]       |                                               [01;31m[K^[m[K
+[1.557s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.557s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.557s] make: *** [Makefile:141: all] Error 2
+[1.559s] Invoked command in '/home/hashaam/Documents/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/challenge -- -j16 -l16

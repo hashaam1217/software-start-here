@@ -1,8 +1,0 @@
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
-/home/hashaam/Documents/software-start-here/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

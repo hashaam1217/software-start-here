@@ -1,0 +1,7 @@
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid TurtleSimController::timer_callback()[m[K’:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:34:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksine_function[m[K’ was not declared in this scope
+   34 |       message.angular.y = [01;31m[Ksine_function[m[K(message);
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

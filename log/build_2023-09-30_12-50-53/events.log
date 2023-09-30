@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000608] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000653] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.095122] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.095435] (challenge) Command: {'cmd': ['/usr/bin/cmake', '/home/hashaam/Documents/software-start-here/src/challenge', '-DCMAKE_INSTALL_PREFIX=/home/hashaam/Documents/software-start-here/install/challenge'], 'cwd': '/home/hashaam/Documents/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hashaam'), ('SSH_AGENT_PID', '2377'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hashaam/Documents/triton/install/triton_vision_utils/lib:/home/hashaam/Documents/triton/install/triton_example/lib:/home/hashaam/Documents/triton/install/triton_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/libphidget22/lib:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hashaam'), ('OLDPWD', '/home/hashaam/Documents/software-start-here/src/challenge'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1751'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hashaam/Documents/triton/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hashaam'), ('JOURNAL_STREAM', '8:46406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hashaam'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/BingoBongo:@/tmp/.ICE-unix/2451,unix/BingoBongo:/tmp/.ICE-unix/2451'), ('INVOCATION_ID', '25335b84514d4a7ea93f0a71457c4089'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b68fcd5f_d66f_48fc_a13b_47806d95550f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hashaam/Documents/triton/install/triton_vision_utils:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_pid_controller:/home/hashaam/Documents/triton/install/triton_example:/home/hashaam/Documents/triton/install/triton_interfaces:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hashaam/Documents/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hashaam/Documents/triton/install/triton_teleop/lib/python3.8/site-packages:/home/hashaam/Documents/triton/install/triton_pipeline/lib/python3.8/site-packages:/home/hashaam/Documents/triton/install/triton_interfaces/lib/python3.8/site-packages:/home/hashaam/Documents/triton/install/triton_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/hashaam/Documents/triton/install/triton_vision_utils:/home/hashaam/Documents/triton/install/triton_pid_controller:/home/hashaam/Documents/triton/install/triton_example:/home/hashaam/Documents/triton/install/triton_interfaces:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy')]), 'shell': False}
+[0.099768] (-) TimerEvent: {}
+[0.168628] (challenge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199990] (-) TimerEvent: {}
+[0.228134] (challenge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.232380] (challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300205] (-) TimerEvent: {}
+[0.310693] (challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.311262] (challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400717] (-) TimerEvent: {}
+[0.401533] (challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.414218] (challenge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.414501] (challenge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.415850] (challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500860] (-) TimerEvent: {}
+[0.512176] (challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.512386] (challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600977] (-) TimerEvent: {}
+[0.604328] (challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.617525] (challenge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.617854] (challenge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.619175] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.641349] (challenge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.641529] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.701082] (-) TimerEvent: {}
+[0.767297] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.796340] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800704] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.801164] (-) TimerEvent: {}
+[0.856150] (challenge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.874708] (challenge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.901277] (-) TimerEvent: {}
+[0.922631] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.967976] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.969052] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.969666] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001404] (-) TimerEvent: {}
+[1.042927] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.043178] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101519] (-) TimerEvent: {}
+[1.120986] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.121200] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.201684] (-) TimerEvent: {}
+[1.204639] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.205062] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.282433] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.284711] (challenge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301773] (-) TimerEvent: {}
+[1.398782] (challenge) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[1.401921] (-) TimerEvent: {}
+[1.477906] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.502023] (-) TimerEvent: {}
+[1.535360] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.535531] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.535598] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hashaam/Documents/software-start-here/src/challenge/include>\n'}
+[1.535693] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.535853] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.535934] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.536247] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.536782] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.536870] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.537095] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.538926] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.543644] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.544589] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/hashaam/Documents/software-start-here/build/challenge\n'}
+[1.549717] (challenge) CommandEnded: {'returncode': 0}
+[1.550267] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[1.552111] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hashaam/Documents/software-start-here/build/challenge', '--', '-j16', '-l16'], 'cwd': '/home/hashaam/Documents/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hashaam'), ('SSH_AGENT_PID', '2377'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hashaam/Documents/triton/install/triton_vision_utils/lib:/home/hashaam/Documents/triton/install/triton_example/lib:/home/hashaam/Documents/triton/install/triton_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/libphidget22/lib:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hashaam'), ('OLDPWD', '/home/hashaam/Documents/software-start-here/src/challenge'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1751'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hashaam/Documents/triton/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'hashaam'), ('JOURNAL_STREAM', '8:46406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hashaam'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/BingoBongo:@/tmp/.ICE-unix/2451,unix/BingoBongo:/tmp/.ICE-unix/2451'), ('INVOCATION_ID', '25335b84514d4a7ea93f0a71457c4089'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b68fcd5f_d66f_48fc_a13b_47806d95550f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hashaam/Documents/triton/install/triton_vision_utils:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_pid_controller:/home/hashaam/Documents/triton/install/triton_example:/home/hashaam/Documents/triton/install/triton_interfaces:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hashaam/Documents/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hashaam/Documents/triton/install/triton_teleop/lib/python3.8/site-packages:/home/hashaam/Documents/triton/install/triton_pipeline/lib/python3.8/site-packages:/home/hashaam/Documents/triton/install/triton_interfaces/lib/python3.8/site-packages:/home/hashaam/Documents/triton/install/triton_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/hashaam/Documents/triton/install/triton_vision_utils:/home/hashaam/Documents/triton/install/triton_pid_controller:/home/hashaam/Documents/triton/install/triton_example:/home/hashaam/Documents/triton/install/triton_interfaces:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy')]), 'shell': False}
+[1.602225] (-) TimerEvent: {}
+[1.609239] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[1.630660] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[1.702337] (-) TimerEvent: {}
+[1.802625] (-) TimerEvent: {}
+[1.902906] (-) TimerEvent: {}
+[2.003197] (-) TimerEvent: {}
+[2.103486] (-) TimerEvent: {}
+[2.203780] (-) TimerEvent: {}
+[2.304076] (-) TimerEvent: {}
+[2.404362] (-) TimerEvent: {}
+[2.504653] (-) TimerEvent: {}
+[2.604935] (-) TimerEvent: {}
+[2.705671] (-) TimerEvent: {}
+[2.805998] (-) TimerEvent: {}
+[2.906269] (-) TimerEvent: {}
+[3.006551] (-) TimerEvent: {}
+[3.106834] (-) TimerEvent: {}
+[3.207119] (-) TimerEvent: {}
+[3.307412] (-) TimerEvent: {}
+[3.407700] (-) TimerEvent: {}
+[3.507992] (-) TimerEvent: {}
+[3.608290] (-) TimerEvent: {}
+[3.708565] (-) TimerEvent: {}
+[3.808843] (-) TimerEvent: {}
+[3.909112] (-) TimerEvent: {}
+[4.009385] (-) TimerEvent: {}
+[4.109660] (-) TimerEvent: {}
+[4.209934] (-) TimerEvent: {}
+[4.310212] (-) TimerEvent: {}
+[4.410493] (-) TimerEvent: {}
+[4.510769] (-) TimerEvent: {}
+[4.611048] (-) TimerEvent: {}
+[4.711328] (-) TimerEvent: {}
+[4.811655] (-) TimerEvent: {}
+[4.890697] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[4.911815] (-) TimerEvent: {}
+[5.012235] (-) TimerEvent: {}
+[5.039972] (challenge) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/solution.dir/src/solution.cpp.o: in function `rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':\n"}
+[5.040250] (challenge) StderrLine: {'line': b"solution.cpp:(.text._ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<geometry_msgs::msg::Twist_<std::allocator<void> > >()'\n"}
+[5.040340] (challenge) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.042083] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:146: solution] Error 1\n'}
+[5.042492] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[5.042815] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.046566] (challenge) CommandEnded: {'returncode': 2}
+[5.113008] (-) TimerEvent: {}
+[5.191124] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[5.202092] (-) EventReactorShutdown: {}

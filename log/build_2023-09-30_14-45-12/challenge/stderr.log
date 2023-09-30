@@ -1,0 +1,13 @@
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In function ‘[01m[Kdouble sine_function(geometry_msgs::msg::Twist)[m[K’:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   44 |     [01;31m[Kmessage[m[K.linear.x = 1.0;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:46:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   46 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:42:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktwist_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   42 | double sine_function([01;35m[Kgeometry_msgs::msg::Twist twist_msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,4 @@
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:[m[K In function ‘[01m[Kdouble sine_function(geometry_msgs::msg::Twist)[m[K’:
+[01m[K/home/hashaam/Documents/software-start-here/src/challenge/src/solution.cpp:44:48:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Ktwist_msg[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+   44 | double sine_function([01;35m[Kgeometry_msgs::msg::Twist twist_msg[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K

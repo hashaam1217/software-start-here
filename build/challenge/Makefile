@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named solution
+
+# Build rule for target.
+solution: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 solution
+.PHONY : solution
+
+# fast build rule for target.
+solution/fast:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/build
+.PHONY : solution/fast
+
+#=============================================================================
 # Target rules for targets named challenge_uninstall
 
 # Build rule for target.
@@ -193,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/solution.o: src/solution.cpp.o
+
+.PHONY : src/solution.o
+
+# target to build an object file
+src/solution.cpp.o:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/solution.cpp.o
+.PHONY : src/solution.cpp.o
+
+src/solution.i: src/solution.cpp.i
+
+.PHONY : src/solution.i
+
+# target to preprocess a source file
+src/solution.cpp.i:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/solution.cpp.i
+.PHONY : src/solution.cpp.i
+
+src/solution.s: src/solution.cpp.s
+
+.PHONY : src/solution.s
+
+# target to generate assembly for a file
+src/solution.cpp.s:
+	$(MAKE) -f CMakeFiles/solution.dir/build.make CMakeFiles/solution.dir/src/solution.cpp.s
+.PHONY : src/solution.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,8 +246,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... solution"
 	@echo "... challenge_uninstall"
 	@echo "... uninstall"
+	@echo "... src/solution.o"
+	@echo "... src/solution.i"
+	@echo "... src/solution.s"
 .PHONY : help
 
 
