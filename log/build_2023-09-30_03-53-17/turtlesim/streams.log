@@ -1,0 +1,500 @@
+[0.129s] Invoking command in '/home/hashaam/Documents/software-start-here/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake /home/hashaam/Documents/software-start-here/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/hashaam/Documents/software-start-here/install/turtlesim
+[0.241s] -- The C compiler identification is GNU 9.4.0
+[0.329s] -- The CXX compiler identification is GNU 9.4.0
+[0.334s] -- Check for working C compiler: /usr/bin/cc
+[0.406s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.408s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.477s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.544s] -- Detecting CXX compiler ABI info
+[0.629s] -- Detecting CXX compiler ABI info - done
+[0.640s] -- Detecting CXX compile features
+[0.640s] -- Detecting CXX compile features - done
+[0.644s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.668s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.668s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.806s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.808s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.840s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.898s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.921s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.060s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.100s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.100s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.102s] -- Looking for pthread.h
+[1.160s] -- Looking for pthread.h - found
+[1.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.251s] -- Looking for pthread_create in pthreads
+[1.307s] -- Looking for pthread_create in pthreads - not found
+[1.307s] -- Looking for pthread_create in pthread
+[1.389s] -- Looking for pthread_create in pthread - found
+[1.391s] -- Found Threads: TRUE  
+[1.497s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.555s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.564s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.592s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.743s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.848s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.869s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.871s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.904s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.904s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.904s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.904s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.925s] -- Found PythonExtra: .so  
+[1.995s] -- Configuring done
+[2.045s] -- Generating done
+[2.047s] -- Build files have been written to: /home/hashaam/Documents/software-start-here/build/turtlesim
+[2.054s] Invoked command in '/home/hashaam/Documents/software-start-here/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake /home/hashaam/Documents/software-start-here/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/hashaam/Documents/software-start-here/install/turtlesim
+[2.058s] Invoking command in '/home/hashaam/Documents/software-start-here/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/turtlesim -- -j16 -l16
+[2.113s] [35m[1mScanning dependencies of target turtlesim__cpp[0m
+[2.114s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.122s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.646s] [  2%] Built target turtlesim__cpp
+[2.654s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.654s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.654s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.686s] [35m[1mScanning dependencies of target turtlesim__rosidl_generator_c[0m
+[2.702s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[2.703s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[2.703s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[2.703s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[2.703s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[2.704s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[2.704s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[2.706s] [ 13%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[2.799s] [ 14%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[2.830s] [ 14%] Built target turtlesim__rosidl_generator_c
+[2.838s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.838s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.997s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[3.015s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[3.016s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[3.017s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[3.017s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[3.017s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[3.017s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[3.017s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[3.018s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[3.123s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[3.143s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o[0m
+[3.143s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o[0m
+[3.144s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o[0m
+[3.144s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o[0m
+[3.144s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o[0m
+[3.363s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o[0m
+[3.373s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[3.374s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o[0m
+[3.375s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_c[0m
+[3.387s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[3.397s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o[0m
+[3.398s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o[0m
+[3.398s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o[0m
+[3.398s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[3.405s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[3.430s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[3.433s] [ 39%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[3.439s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o[0m
+[3.439s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[3.447s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[3.470s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[3.481s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[3.482s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[3.482s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[3.482s] [ 47%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[3.501s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[3.511s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[3.511s] [ 49%] Built target turtlesim__rosidl_typesupport_cpp
+[3.519s] [ 50%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so[0m
+[3.555s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[3.576s] [ 50%] Built target turtlesim__rosidl_typesupport_c
+[3.580s] [ 53%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[3.580s] [ 53%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[3.581s] [ 53%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[3.587s] [ 54%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[3.587s] [ 55%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[3.624s] [ 56%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[3.631s] [ 57%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[3.632s] [ 58%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[3.677s] [ 59%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[3.708s] [ 59%] Built target turtlesim__rosidl_typesupport_introspection_c
+[3.733s] [ 60%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[3.792s] [ 60%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[3.997s] [ 61%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.060s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[4.067s] [ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.529s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[4.559s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[4.559s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[4.559s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[4.559s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[4.559s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[4.559s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[4.559s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[4.560s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[4.855s] [ 71%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[4.930s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[4.943s] [35m[1mScanning dependencies of target turtlesim[0m
+[4.954s] [ 71%] Built target turtlesim
+[4.963s] [35m[1mScanning dependencies of target draw_square[0m
+[4.963s] [35m[1mScanning dependencies of target mimic[0m
+[4.963s] [35m[1mScanning dependencies of target turtlesim__py[0m
+[4.963s] [ 72%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[4.963s] [35m[1mScanning dependencies of target turtle_teleop_key[0m
+[4.970s] [ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.016s] [35m[1mScanning dependencies of target turtlesim_node[0m
+[5.024s] [ 76%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[5.025s] [ 76%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[5.025s] [ 76%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[5.070s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[5.070s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[5.071s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[5.071s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[6.195s] [ 80%] Built target turtlesim__py
+[6.203s] [35m[1mScanning dependencies of target turtlesim__python[0m
+[6.245s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[6.245s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[6.246s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[6.246s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[6.246s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[6.246s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[6.246s] [ 88%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[6.246s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[6.385s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__python.so[0m
+[6.422s] [ 89%] Built target turtlesim__python
+[6.431s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.433s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[6.433s] [35m[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[6.451s] [ 90%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.456s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.456s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o[0m
+[6.557s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.606s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.625s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.625s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[6.649s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[6.657s] [ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[8.426s] [ 96%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[8.587s] [ 96%] Built target turtle_teleop_key
+[9.056s] [ 97%] [32m[1mLinking CXX executable mimic[0m
+[9.218s] [ 97%] Built target mimic
+[9.647s] [ 98%] [32m[1mLinking CXX executable draw_square[0m
+[9.815s] [ 98%] Built target draw_square
+[11.147s] [100%] [32m[1mLinking CXX executable turtlesim_node[0m
+[12.088s] [100%] Built target turtlesim_node
+[12.099s] Invoked command in '/home/hashaam/Documents/software-start-here/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/hashaam/Documents/software-start-here/build/turtlesim -- -j16 -l16
+[12.203s] Invoking command in '/home/hashaam/Documents/software-start-here/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/hashaam/Documents/software-start-here/build/turtlesim
+[12.210s] -- Install configuration: ""
+[12.210s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[12.210s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/set_pen.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/teleport_relative.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/teleport_absolute.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/spawn.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h
+[12.211s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/kill.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/rotate_absolute.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h
+[12.212s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/color.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/pose.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__functions.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__functions.c
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__struct.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/library_path.sh
+[12.213s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[12.214s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.214s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail
+[12.214s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[12.215s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[12.215s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim
+[12.215s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv
+[12.215s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[12.215s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action
+[12.215s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail
+[12.215s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[12.216s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.216s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[12.216s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.216s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim
+[12.216s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv
+[12.216s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c
+[12.216s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c
+[12.217s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action
+[12.217s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[12.217s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.217s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c
+[12.217s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[12.218s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[12.218s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[12.218s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim
+[12.218s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/spawn.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/kill.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/set_pen.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp
+[12.218s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.hpp
+[12.218s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp
+[12.219s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action
+[12.219s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp
+[12.220s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[12.220s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/pose.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/color.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.220s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__type_support.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp
+[12.220s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg
+[12.221s] -- Up-to-date: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp
+[12.221s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[12.222s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[12.222s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[12.222s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[12.222s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[12.222s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[12.222s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py
+[12.260s] Compiling '/home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py'...
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/action
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c
+[12.264s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c
+[12.265s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py
+[12.266s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py
+[12.266s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py
+[12.266s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c
+[12.266s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c
+[12.266s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.268s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.268s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.269s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.270s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.271s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.271s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__python.so
+[12.272s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/libturtlesim__python.so" to ""
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/msg/Color.idl
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/msg/Pose.idl
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Kill.idl
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[12.272s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/msg/Color.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/msg/Pose.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Kill.srv
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[12.273s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[12.274s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[12.274s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[12.274s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[12.274s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[12.274s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[12.274s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/turtlesim_node
+[12.276s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[12.276s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[12.277s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[12.277s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/draw_square
+[12.278s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/draw_square" to ""
+[12.279s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/mimic
+[12.280s] -- Set runtime path of "/home/hashaam/Documents/software-start-here/install/turtlesim/lib/turtlesim/mimic" to ""
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images/bouncy.png
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images/ardent.png
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images/crystal.png
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images/eloquent.png
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images/dashing.png
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/images/foxy.png
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/launch
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[12.280s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/path.sh
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/environment/path.dsv
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/local_setup.bash
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/local_setup.sh
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/local_setup.zsh
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/local_setup.dsv
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/package.dsv
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[12.281s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[12.282s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.283s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.283s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.283s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[12.283s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[12.283s] -- Installing: /home/hashaam/Documents/software-start-here/install/turtlesim/share/turtlesim/package.xml
+[12.285s] Invoked command in '/home/hashaam/Documents/software-start-here/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hashaam/Documents/triton/install/triton_teleop:/home/hashaam/Documents/triton/install/triton_pipeline:/home/hashaam/Documents/triton/install/triton_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/hashaam/Documents/software-start-here/build/turtlesim
